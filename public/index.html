@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dera Dastarkhwan | Desi Khana in Bhakkar</title>
+<meta name="description" content="Karahi, biryani and BBQ in Bhakkar. Dine in, takeaway or home delivery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  colors: { ink:'#2b1d14', clay:'#a5451f', saffron:'#d9962b', cream:'#faf3e6', sand:'#efe2c9', leaf:'#4a5d3a' },
+  fontFamily: { serif:['Lora','serif'], sans:['Nunito','sans-serif'] } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  body{background:#faf3e6;color:#2b1d14}
+  .urdu{font-family:'Noto Nastaliq Urdu',serif;direction:rtl;line-height:2.1}
+  .hero{background:linear-gradient(rgba(35,20,10,.62),rgba(35,20,10,.72)),url('https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1600&q=70') center/cover #3b2314}
+  .dots{border-bottom:2px dotted #c9b48c;flex:1;margin:0 .6rem;transform:translateY(-4px)}
+  @keyframes pulse-ring{0%{box-shadow:0 0 0 0 rgba(165,69,31,.55)}100%{box-shadow:0 0 0 16px rgba(165,69,31,0)}}
+  .rec{animation:pulse-ring 1.2s infinite;background:#b3261e!important}
+</style>
+</head>
+<body class="font-sans antialiased">
+
+<!-- NAV -->
+<header class="fixed top-0 inset-x-0 z-30 bg-ink/95 backdrop-blur text-cream">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+    <a href="#top" class="font-serif text-xl font-semibold tracking-wide">Dera <span class="text-saffron">Dastarkhwan</span></a>
+    <nav class="hidden md:flex gap-7 text-sm">
+      <a href="#about" class="hover:text-saffron">Our Story</a>
+      <a href="#menu" class="hover:text-saffron">Menu</a>
+      <a href="#service" class="hover:text-saffron">Delivery</a>
+      <a href="#visit" class="hover:text-saffron">Visit Us</a>
+    </nav>
+    <a href="https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20mujhe%20order%20dena%20hai" target="_blank" class="bg-clay hover:bg-[#8b3a19] text-white text-sm font-bold px-4 py-2 rounded-full">Order Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero text-cream pt-16">
+  <div class="max-w-6xl mx-auto px-4 py-24 md:py-36">
+    <p class="text-saffron tracking-[.25em] text-xs md:text-sm uppercase mb-4">Jhang Road · Bhakkar</p>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-2xl">Wohi purana zaiqa, angeethi ki aanch par.</h1>
+    <p class="mt-5 max-w-xl text-base md:text-lg text-cream/85">Slow-cooked karahi, dum biryani and charcoal BBQ, made fresh every day for families of Bhakkar since 2009.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="#menu" class="bg-saffron text-ink font-bold px-6 py-3 rounded-full hover:brightness-110">See the Menu</a>
+      <a href="tel:03000000000" class="border border-cream/60 px-6 py-3 rounded-full hover:bg-cream hover:text-ink">Call 0300-0000000</a>
+    </div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="bg-clay text-cream">
+  <div class="max-w-6xl mx-auto px-4 py-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-center text-sm">
+    <div>Open daily <b>12 PM – 12 AM</b></div><div>Home delivery in <b>Bhakkar city</b></div>
+    <div>Cash, <b>JazzCash, Easypaisa</b></div><div>Family hall &amp; <b>takeaway</b></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+  <div>
+    <p class="text-clay font-bold tracking-widest text-xs uppercase mb-2">Our story</p>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold">A family kitchen that grew into a dastarkhwan</h2>
+    <p class="mt-4 text-ink/80 leading-relaxed">It started with one karahi pot and a small tandoor near the chowk. Today the recipes are still the same: hand-ground masalas, desi ghee, and meat that arrives fresh every morning. No shortcuts, no food colour, just the taste you remember from home.</p>
+    <p class="mt-3 text-ink/80 leading-relaxed">Come with the whole family, or let us bring dinner to your door.</p>
+    <div class="mt-6 flex gap-8">
+      <div><p class="font-serif text-3xl text-clay font-bold">15+</p><p class="text-sm text-ink/70">years serving Bhakkar</p></div>
+      <div><p class="font-serif text-3xl text-clay font-bold">100%</p><p class="text-sm text-ink/70">fresh, never frozen</p></div>
+      <div><p class="font-serif text-3xl text-clay font-bold">120</p><p class="text-sm text-ink/70">seats in family hall</p></div>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-3">
+    <img class="rounded-2xl h-48 md:h-64 w-full object-cover bg-sand" loading="lazy" alt="Karahi" src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=600&q=70">
+    <img class="rounded-2xl h-48 md:h-64 w-full object-cover bg-sand mt-8" loading="lazy" alt="BBQ" src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=600&q=70">
+  </div>
+</section>
+
+<!-- POPULAR -->
+<section class="bg-sand">
+  <div class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="font-serif text-3xl font-bold mb-8 text-center">Most loved at our table</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+      <div class="bg-cream rounded-2xl p-6 border border-[#e2d2b2]"><p class="text-saffron text-xs font-bold tracking-widest">NO. 1</p><h3 class="font-serif text-xl font-semibold mt-1">Chicken Karahi</h3><p class="text-sm text-ink/75 mt-2">Cooked in its own juices with tomatoes, green chilli and ginger. Our signature.</p><p class="mt-3 font-bold text-clay">From Rs 1,400</p></div>
+      <div class="bg-cream rounded-2xl p-6 border border-[#e2d2b2]"><p class="text-saffron text-xs font-bold tracking-widest">NO. 2</p><h3 class="font-serif text-xl font-semibold mt-1">Chicken Biryani</h3><p class="text-sm text-ink/75 mt-2">Long-grain rice layered with spiced chicken and steamed on dum.</p><p class="mt-3 font-bold text-clay">Rs 350</p></div>
+      <div class="bg-cream rounded-2xl p-6 border border-[#e2d2b2]"><p class="text-saffron text-xs font-bold tracking-widest">NO. 3</p><h3 class="font-serif text-xl font-semibold mt-1">Seekh Kabab</h3><p class="text-sm text-ink/75 mt-2">Hand-minced beef, grilled over charcoal. Four pieces with chutney and naan.</p><p class="mt-3 font-bold text-clay">Rs 450</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+  <div class="text-center mb-12">
+    <p class="text-clay font-bold tracking-widest text-xs uppercase mb-2">The menu</p>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold">What's cooking today</h2>
+  </div>
+  <div class="grid md:grid-cols-2 gap-x-14 gap-y-10">
+    <div>
+      <h3 class="font-serif text-2xl text-clay mb-4 border-b border-[#d8c7a3] pb-2">Karahi &amp; Handi</h3>
+      <ul class="space-y-3" id="m1"></ul>
+    </div>
+    <div>
+      <h3 class="font-serif text-2xl text-clay mb-4 border-b border-[#d8c7a3] pb-2">BBQ &amp; Rice</h3>
+      <ul class="space-y-3" id="m2"></ul>
+    </div>
+    <div>
+      <h3 class="font-serif text-2xl text-clay mb-4 border-b border-[#d8c7a3] pb-2">Daal &amp; Bread</h3>
+      <ul class="space-y-3" id="m3"></ul>
+    </div>
+    <div>
+      <h3 class="font-serif text-2xl text-clay mb-4 border-b border-[#d8c7a3] pb-2">Drinks &amp; Sweets</h3>
+      <ul class="space-y-3" id="m4"></ul>
+    </div>
+  </div>
+  <p class="text-center text-sm text-ink/60 mt-10">Prices in PKR. Spice level and oil can be adjusted, just tell us when ordering.</p>
+</section>
+
+<!-- SERVICE -->
+<section id="service" class="bg-ink text-cream">
+  <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-3 gap-8">
+    <div>
+      <h3 class="font-serif text-2xl text-saffron mb-2">Order by WhatsApp</h3>
+      <p class="text-cream/80 text-sm leading-relaxed">Send your order on WhatsApp or call us. We confirm instantly and start cooking.</p>
+      <a href="https://wa.me/923000000000" target="_blank" class="inline-block mt-4 bg-leaf px-5 py-2.5 rounded-full text-sm font-bold">WhatsApp 0300-0000000</a>
+    </div>
+    <div>
+      <h3 class="font-serif text-2xl text-saffron mb-2">Home delivery</h3>
+      <p class="text-cream/80 text-sm leading-relaxed">Anywhere inside Bhakkar city. Free above Rs 1,500, otherwise Rs 100. Usually 30 to 45 minutes at your door.</p>
+    </div>
+    <div>
+      <h3 class="font-serif text-2xl text-saffron mb-2">Payment</h3>
+      <p class="text-cream/80 text-sm leading-relaxed">Cash, cash on delivery, JazzCash, Easypaisa and bank transfer. Dine-in orders are ready in 20 to 30 minutes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section id="visit" class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10">
+  <div>
+    <p class="text-clay font-bold tracking-widest text-xs uppercase mb-2">Visit us</p>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold mb-6">Find your seat</h2>
+    <dl class="space-y-5 text-ink/85">
+      <div><dt class="font-bold">Address</dt><dd>Jhang Road, near Chowk Fawara, Bhakkar, Punjab</dd></div>
+      <div><dt class="font-bold">Hours</dt><dd>Every day, 12:00 PM to 12:00 AM</dd></div>
+      <div><dt class="font-bold">Phone / WhatsApp</dt><dd><a class="text-clay underline" href="tel:03000000000">0300-0000000</a></dd></div>
+    </dl>
+    <p class="mt-6 text-sm text-ink/70">Tip: tap the round button at the bottom right and ask your question by voice in Urdu.</p>
+  </div>
+  <div class="rounded-2xl overflow-hidden border border-[#d8c7a3] min-h-[300px]">
+    <iframe title="Map" class="w-full h-full min-h-[300px]" loading="lazy" src="https://maps.google.com/maps?q=Bhakkar,Punjab,Pakistan&output=embed"></iframe>
+  </div>
+</section>
+
+<footer class="bg-ink text-cream/70 text-sm text-center py-6 px-4">
+  © <span id="yr"></span> Dera Dastarkhwan, Bhakkar. Made with love and plenty of ghee.
+</footer>
+
+<!-- VOICE CHAT -->
+<button id="chatBtn" aria-label="Voice assistant" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-clay text-white shadow-xl flex items-center justify-center hover:scale-105 transition">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+</button>
+
+<div id="panel" class="hidden fixed z-40 bottom-24 right-3 left-3 sm:left-auto sm:right-5 sm:w-96 bg-cream rounded-2xl shadow-2xl border border-[#d8c7a3] overflow-hidden flex-col" style="max-height:75vh">
+  <div class="bg-ink text-cream px-4 py-3 flex items-center justify-between">
+    <div><p class="font-serif font-semibold leading-tight">Dera Dastarkhwan</p><p class="text-xs text-cream/70">Voice assistant · اردو</p></div>
+    <button id="closeBtn" class="text-2xl leading-none px-2" aria-label="Close">×</button>
+  </div>
+  <div id="log" class="flex-1 overflow-y-auto p-4 space-y-3 min-h-[200px]">
+    <div class="urdu bg-sand rounded-2xl rounded-tl-sm px-4 py-2 text-[15px]">السلام علیکم! مائیک کا بٹن دبائیں اور مینو، قیمت، ڈیلیوری یا اوقات کے بارے میں پوچھیں۔</div>
+  </div>
+  <div class="border-t border-[#d8c7a3] p-4 flex flex-col items-center gap-2 bg-white/50">
+    <button id="micBtn" class="w-16 h-16 rounded-full bg-clay text-white flex items-center justify-center" aria-label="Record">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></svg>
+    </button>
+    <p id="status" class="urdu text-sm text-ink/70">بولنے کے لیے دبائیں</p>
+  </div>
+</div>
+
+<script>
+// ---------- menu ----------
+const menu = {
+  m1:[['Chicken Karahi','1,400 / 2,600'],['Mutton Karahi','1,800 / 3,500'],['Daal Mash','300']],
+  m2:[['Chicken Biryani','350'],['Seekh Kabab (4 pcs)','450'],['Chapli Kabab','380'],['Chicken Tikka Leg','400']],
+  m3:[['Naan','30'],['Roghni Naan','50'],['Raita &amp; Salad','80'],['Daal Mash','300']],
+  m4:[['Lassi (glass)','150'],['Doodh Patti Chai','80'],['Gulab Jamun (2 pcs)','120'],['Soft Drink','100']]
+};
+for (const k in menu) document.getElementById(k).innerHTML = menu[k].map(([n,p]) =>
+  `<li class="flex items-baseline"><span class="font-semibold">${n}</span><span class="dots"></span><span class="text-clay font-bold">Rs ${p}</span></li>`).join('');
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// ---------- voice assistant ----------
+const $ = id => document.getElementById(id);
+const panel = $('panel'), log = $('log'), mic = $('micBtn'), statusEl = $('status');
+let recorder, chunks = [], stream, busy = false, current = null;
+
+$('chatBtn').onclick = () => { panel.classList.toggle('hidden'); panel.classList.toggle('flex'); };
+$('closeBtn').onclick = () => { panel.classList.add('hidden'); panel.classList.remove('flex'); };
+
+function addMsg(text, who, audioB64, canSpeak) {
+  const d = document.createElement('div');
+  d.className = 'urdu text-[15px] px-4 py-2 rounded-2xl max-w-[88%] ' +
+    (who === 'me' ? 'bg-clay text-white rounded-tr-sm ml-auto' : 'bg-sand rounded-tl-sm');
+  d.textContent = text;
+  if (audioB64 || canSpeak) {
+    const b = document.createElement('button');
+    b.className = 'block text-xs mt-1 underline opacity-70'; b.textContent = '▶ دوبارہ سنیں';
+    b.onclick = () => audioB64 ? play(audioB64) : speakBrowser(text); d.appendChild(b);
+  }
+  log.appendChild(d); log.scrollTop = log.scrollHeight;
+}
+function addErr(t) {
+  const d = document.createElement('div');
+  d.dir = 'ltr'; d.className = 'text-[11px] text-red-700 bg-red-50 rounded-lg px-3 py-2 break-words';
+  d.textContent = 'Debug: ' + t; log.appendChild(d); log.scrollTop = log.scrollHeight;
+}
+function speakBrowser(text) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  const v = speechSynthesis.getVoices().find(x => /^ur/i.test(x.lang));
+  if (v) u.voice = v;
+  u.lang = v ? v.lang : 'ur-PK';
+  u.rate = 0.95;
+  speechSynthesis.speak(u);
+}
+if ('speechSynthesis' in window) speechSynthesis.getVoices();
+function play(b64) {
+  if (current) current.pause();
+  current = new Audio('data:audio/mpeg;base64,' + b64);
+  current.play().catch(() => {});
+}
+function setStatus(t) { statusEl.textContent = t; }
+
+mic.onclick = async () => {
+  if (busy) return;
+  if (recorder && recorder.state === 'recording') { recorder.stop(); return; }
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  } catch { setStatus('مائیک کی اجازت دیں'); return; }
+  const type = ['audio/webm;codecs=opus','audio/webm','audio/mp4'].find(t => window.MediaRecorder && MediaRecorder.isTypeSupported(t)) || '';
+  recorder = new MediaRecorder(stream, type ? { mimeType: type } : undefined);
+  chunks = [];
+  recorder.ondataavailable = e => e.data.size && chunks.push(e.data);
+  recorder.onstop = send;
+  recorder.start();
+  mic.classList.add('rec'); setStatus('سن رہا ہوں... ختم کرنے کے لیے دبائیں');
+};
+
+async function send() {
+  stream.getTracks().forEach(t => t.stop());
+  mic.classList.remove('rec');
+  const blob = new Blob(chunks, { type: recorder.mimeType || 'audio/webm' });
+  if (blob.size < 1500) { setStatus('آواز بہت مختصر تھی، دوبارہ کوشش کریں'); return; }
+  busy = true; setStatus('جواب تیار ہو رہا ہے...');
+  const fd = new FormData(); fd.append('audio', blob, 'voice.webm');
+  try {
+    const r = await fetch('/api/voice', { method: 'POST', body: fd });
+    if (!r.ok) {
+      let e = {}; try { e = await r.json(); } catch {}
+      throw new Error(e.stage ? e.stage + ' -> ' + e.detail : 'Server returned ' + r.status + ' (is the Node server running on this page\'s address?)');
+    }
+    const d = await r.json();
+    if (d.question) addMsg(d.question, 'me');
+    addMsg(d.answer, 'bot', d.audio, true);
+    if (d.audio) play(d.audio);
+    else { speakBrowser(d.answer); if (d.ttsError) console.warn('ElevenLabs failed, using browser voice:', d.ttsError); }
+    setStatus('بولنے کے لیے دبائیں');
+  } catch (err) { console.error(err); addMsg('معذرت، کچھ مسئلہ پیش آ گیا۔ دوبارہ کوشش کریں۔', 'bot'); addErr(err.message); setStatus('بولنے کے لیے دبائیں'); }
+  busy = false;
+}
+</script>
+</body>
+</html>
